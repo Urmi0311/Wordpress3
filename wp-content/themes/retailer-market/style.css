@@ -1,0 +1,161 @@
+/*
+Theme Name: Retailer Market
+Theme URI: https://www.themagnifico.net/themes/free-retailer-wordpress-theme/
+Template: ecommerce-zone
+Author: TheMagnifico52
+Author URI: https://www.themagnifico.net/
+Description: Retailer Market is a Wordpress theme with its layout giving professional websites for the marketplace, stores, shops, Woocommerce, grocery, multivendor shops, vegetable store, food delivery chains, food business, fashion stores, electronics, and any kind of online stores. This is a free theme with loads of features and its minimal impressive design can make your audience look directly at the important facts and key information published. It is clean and clutter-free making every product look exceptionally good on your website. Retina ready display will bring a clear view of images and responsive design make the layout adjust to every device’s screen with perfection. With the user-friendly interface of this theme, it becomes easy for novices as well as beginners to get a wonderful design. Personalization options are going to make it simple for you to change the default colors and fonts. For better performance and faster page load times, it has well-optimized codes that will also make your website lightweight. SEO-friendly design can make your website have more visitors as it can get easily noticed. Call to Action Button (CTA) can make a huge difference in conversions and provide an interactive environment for your audience. With social media icons, you can have effective promotion options.
+Tags: custom-logo,one-column,two-columns,wide-blocks,block-styles,editor-style,sticky-post,custom-background,custom-colors,custom-header,custom-menu,featured-images,flexible-header,full-width-template,threaded-comments,theme-options,rtl-language-support,left-sidebar,right-sidebar,grid-layout,blog,e-commerce,food-and-drink
+Version: 1.6.1680000811
+Updated: 2023-03-28 10:53:31
+
+*/
+
+.logo-head form.woocommerce-product-search {
+    border-color: #938e99;
+}
+.logo-head button {
+    left: 5px;
+    position: relative;
+    top: -6px;
+    background-color: #d30b5c;
+    -moz-border-radius: 0 5px 5px 0;
+    -webkit-border-radius: 0 5px 5px 0;
+    -o-border-radius: 0 5px 5px 0;
+    border-radius: 0 5px 5px 0;
+    background-image: url(assets/img/icon.png);
+    background-position: 15px 8px;
+    padding: 9px 25px;
+}
+.user-account {
+    margin-top: 0;
+    border: none;
+    margin-bottom: 0;
+    text-align: right;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+    padding: 0;
+}
+.head-menu {
+    background-color: #353238;
+    padding: 18px;
+}
+.slider-inner-box {
+    right: 50%;
+    left: 15%;
+    background-color: transparent;
+    padding: 0;
+}
+.slider-inner-box h2 {
+    font-size: 50px;
+    font-style: italic;
+}
+.slider-inner-box a {
+    color: #d30b5c;
+    padding: 15px 20px;
+}
+.admin-bar .head-menu.stick_header {
+    background-color: #353238;
+}
+.cat-pro-inner-box {
+    right: 10%;
+    background-color: transparent;
+    text-align: right;
+    padding: 0;
+}
+.cat-pro-inner-box a {
+    border: none;
+    background-color: #d30b5c;
+    padding: 10px;
+}
+.navbar {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.main-navigation .menu > li > a {
+    color: #fff;
+}
+a, .sidebar a:hover, #colophon a:hover, #colophon a:focus, p.price, .woocommerce ul.products li.product .price, .woocommerce div.product p.price, .woocommerce div.product span.price, .woocommerce-message::before, .woocommerce-info::before, .navbar-brand a {
+    color: #d30b5c;
+}
+.sticky .entry-title::before, .main-navigation .menu > li > a:hover, .main-navigation .sub-menu, #button, .sidebar input[type="submit"], .comment-respond input#submit, .post-navigation .nav-previous a:hover, .post-navigation .nav-next a:hover, .posts-navigation .nav-previous a:hover, .posts-navigation .nav-next a:hover, .pro-button a:hover, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .wp-block-button__link, .serv-box:hover, .woocommerce-account .woocommerce-MyAccount-navigation ul li, .btn-primary, span.cart-value, .toggle-nav.mobile-menu button, .woocommerce .woocommerce-ordering select, .woocommerce ul.products li.product .onsale, .woocommerce span.onsale, .slider-inner-box a:hover, .cat-pro-inner-box a:hover, span.onsale, .all-categories, .sidebar .tagcloud a:hover {
+    background-color: #d30b5c;
+}
+.woocommerce-message, .woocommerce-info, .wp-block-pullquote, .wp-block-quote, .wp-block-quote:not(.is-large):not(.is-style-large), .wp-block-pullquote, .btn-primary, .pro-button a:hover, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .slider-inner-box a:hover, .cat-pro-inner-box a:hover, #homepage-product h3 {
+    border-color: #d30b5c;
+}
+.socialmedia {
+    background-color: #d30b5c;
+}
+.socialmedia, .logo-head, .head-menu {
+    border: none;
+}
+.socialmedia a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+}
+.all-categories button {
+    border: none;
+    color: #fff;
+    background-color: transparent;
+    padding: 15px 25px;
+}
+.home_product_cat h4 {
+    margin-bottom: 0;
+    font-size: 16px;
+    border-bottom: solid 1px #efefef;
+    padding: 10px 15px;
+}
+.home_product_cat {
+    display: none;
+    width: 100%;
+    position: absolute;
+    background-color: #fff;
+    z-index: 999;
+}
+.sale-btn a {
+    background-color: #4b484e;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 15px 5px;
+}
+.sale-btn a:hover {
+    color: #fff;
+}
+.slider-inner-box p, .slider-inner-box a:hover {
+    color: #fff;
+}
+@media screen and (max-width: 1000px) {
+.toggle-nav {
+    z-index: 9999;
+}
+}
+@media screen and (min-width: 320px) and (max-width: 720px) {
+.socialmedia, .user-account {
+    text-align: center;
+}
+.logo-head button {
+    top: -30px;
+}
+.sale-btn {
+    display: inline-grid;
+}
+.slider-inner-box {
+    right: 10%;
+}
+.slider-inner-box p {
+    display: none;
+}
+.slider-inner-box h2 {
+    margin-bottom: 0;
+    font-size: 30px;
+}
+}
+@media screen and (min-width: 721px) and (max-width: 999px) {
+.slider-inner-box {
+    right: 30%;
+}
+}
