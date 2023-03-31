@@ -11,3 +11,78 @@ Updated: 2023-03-29 10:21:02
 
 */
 
+/*
+Theme Name: Astra Child
+Theme URI: https://wpastra.com/
+Template: astra
+Author: Brainstorm Force
+Author URI: https://wpastra.com/about/?utm_source=theme_preview&utm_medium=author_link&utm_campaign=astra_theme
+Description: Astra is fast, fully customizable &amp; beautiful WordPress theme suitable for blog, personal portfolio, business website and WooCommerce storefront. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with Schema.org code integrated and is Native AMP ready so search engines will love your site. It offers special features and templates so it works perfectly with all page builders like Elementor, Beaver Builder, Visual Composer, SiteOrigin, Divi, etc. Some of the other features: # WooCommerce Ready # Responsive # RTL &amp; Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained &amp; Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and WooCommerce ready theme that you can use for building any kind of website!
+Tags: custom-menu,custom-logo,entertainment,one-column,two-columns,left-sidebar,e-commerce,right-sidebar,custom-colors,editor-style,featured-images,full-width-template,microformats,post-formats,rtl-language-support,theme-options,threaded-comments,translation-ready,blog
+Version: 4.1.0.1680005020
+Updated: 2023-03-28 12:03:40
+
+*/
+
+.testimonial-slider {
+
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+    color : white;
+}
+.testimonial-slide {
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    color : white;
+    padding: 2% 3% 0% 0%;
+}
+.testimonial-slide .testimonial-slide active {
+
+    margin: 5% 0% 3% 0%;
+
+    color : white;
+}
+.testimonial-slide.active {
+    opacity: 1;
+
+    color : white;
+}
+blockquote {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+    padding: 0 20px;
+    text-align: center;
+}
+cite {
+    display: block;
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+
+
+.elementor-section   {
+    margin: 7% 0% 3% 0%;
+    padding : 0% 0% 0% 0%;
+
+    color : white;
+}
+
+.wp-show-posts-entry-header{
+    color : blue;
+}
+
+wp-show-posts-read-more{
+    color : blue;
+}
+
+.ast-single-post .entry-content a, .ast-comment-content a:not(.ast-comment-edit-reply-wrap a) {
+    text-decoration: underline;
+    COLOR: blue;
+}
